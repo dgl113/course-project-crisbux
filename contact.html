@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Hedvig+Letters+Sans&family=Lato:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap"
+        rel="stylesheet">
+    <title>Contact COC - Project</title>
+</head>
+
+<body>
+    <header>
+        <a href="index.html">
+            <img src="images/logo.svg" class="logo" alt="Church of Christ Logo" width="150">
+        </a>
+        <nav>
+            <a class="toggle" onclick="showNav()"><i class="fa fa-bars" aria-hidden="true"></i></a>
+            <ul id="nav-items">
+                <li class="list-item">
+                    <a href="index.html">Home</a>
+                </li>
+                <li class="list-item">
+                    <a href="about.html">About us</a>
+                </li>
+                <li class="list-item">
+                    <a href="foundations.html">Our Foundations</a>
+                </li>
+                <li class="list-item">
+                    <a href="#" class="currently">Contact</a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+
+    <script>
+        function showNav() {
+            var element = document.getElementById("nav-items");
+            element.classList.toggle("show-items");
+        }
+    </script>
+    <main>
+        <div class="wrapper-form">
+            <h2>Contact Form</h2>
+            <form method="post" action="#">
+                <label for="fname">Name</label>
+                <input type="text" id="fname" name="tname" placeholder="Ex: Bill">
+
+                <label for="email">Email <span class="label-required">* (required)</span></label>
+                <input type="email" id="email" name="email" placeholder="Ex: bill@mail.com" required>
+
+                <label for="message">Message</label>
+                <textarea id="message" name="message" placeholder="Please tell us what do you want to know"
+                    style="height:200px"></textarea>
+
+                <!--HTML suggested by ChatGPT for add a hidden field --->
+                <label for="contactPhone">Contact me by phone</label>
+                <input type="checkbox" id="contactPhone" name="contactPhone">
+                <div class="phoneField">
+                    <label for="phone">Telephone Number:</label>
+                    <input type="text" id="phone" name="phone" placeholder="Ex: (250) 234 5678">
+                </div>
+
+                <div class="wrapper-button">
+                    <input type="submit" value="Submit">
+                </div>
+            </form>
+        </div>
+    </main>
+
+    <footer>
+        <div class="footer-container">
+            <div class="images-container">
+                <img src="images/w-logo.svg" alt="logo Church of Christ" width="200">
+                <img src="images/church.jpg" alt="Church Building">
+            </div>
+            <div class="footer-content">
+                <ul class="list-container">
+                    <li>
+                        <a href="index.html">Home</a>
+                    </li>
+                    <li>
+                        <a href="about.html">About Us</a>
+                    </li>
+                    <li>
+                        <a href="foundations.html">Our Foundations</a>
+                    </li>
+                    <li>
+                        <a href="contact.html">Contact Us</a>
+                    </li>
+                    <li>
+                        <a href="https://www.church-of-christ.org/" target="_blank">Church of Christ in the World</a>
+                    </li>
+                    <li>
+                        <a href="https://www.church-of-christ.org/directories/world-wide-directory-of-the-churches-of-christ.html"
+                            target="_blank">World Wide Directory</a>
+                    </li>
+                </ul>
+            </div>
+            <div class="info-container">
+                <div>
+                    <h4>Service</h4>
+                    <p>10am - 11:30am</p>
+                    <h4>Phone Number</h4>
+                    <p> (250) 923-6176
+                    </p>
+                    <h4>Preachers</h4>
+                    <p>William Pakosz
+                        <br>Jim McGeachy
+                    </p>
+                </div>
+            </div>
+            <div class="location-container">
+                <h4>Address</h4>
+                <p>226 Hilchey Rd, Campbell River, BC V9W 1P4</p>
+                <iframe
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2566.0332284805413!2d-125.22534630000001!3d49.9732354!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x5462a883476af0b7%3A0xf71774c8a134f7e0!2s226%20Hilchey%20Rd%2C%20Campbell%20River%2C%20BC%20V9W%201P4!5e0!3m2!1sen!2sca!4v1700159260404!5m2!1sen!2sca"
+                    width="280" height="175" style="border:0;" allowfullscreen="" loading="lazy"
+                    referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+        </div>
+        <hr>
+        <p class="rights">&copy; 2023 - Church of Christ Courtenay | All rights reserved <br>
+            This is a fictional website that was designed and coded as an
+            educational exercise it is not intended to be seen outside of the
+            class enironment. None of the class environment. None of the content
+            and images were approved by the business owner.</p>
+    </footer>
+
+</body>
+
+</html>

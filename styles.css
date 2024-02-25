@@ -1,0 +1,1139 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-size: 1.6rem;
+  font-family: "Lato", sans-serif;
+  width: 100%;
+  min-width: 0%;
+}
+
+body p {
+  color: #656565;
+  line-height: 2.4rem;
+  font-weight: 300;
+}
+
+body h2 {
+  color: #4d4d4d;
+}
+
+header {
+  background-color: #e7f5fe;
+  padding: 16px 16px;
+  color: #505d68;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.toggle {
+  font-size: 24px;
+  color: #474747;
+}
+
+nav {
+  display: flex;
+  width: 100%;
+  flex-direction: column;
+  padding: 0;
+  justify-content: flex-end;
+  align-items: flex-end;
+}
+
+nav ul {
+  display: none;
+  padding: 16px;
+}
+
+.list-item {
+  list-style: none;
+  margin: 0;
+  padding: 16px;
+}
+
+nav a {
+  text-decoration: none;
+  color: #474747;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-size: 1.6rem;
+  font-weight: lighter;
+  list-style: none;
+}
+
+nav a:hover {
+  text-decoration: underline;
+}
+
+.currently {
+  text-decoration: underline;
+  font-weight: 700;
+}
+
+.show-items {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #ffffff;
+  color: #474747;
+  position: absolute;
+  top: 10%;
+  left: 0;
+  width: 100%;
+  text-align: center;
+}
+
+/* HERO -------*/
+
+.hero {
+  display: flex;
+  text-align: center;
+  width: 100%;
+  padding: 80px 40px;
+  background-image: url("images/sunrise.jpg"); /* Photo by Ravi Pinisetti on Unsplash */
+  background-size: cover;
+}
+
+.hero h1 {
+  font-size: 3.8rem;
+  color: #ffffff;
+  font-weight: bold;
+  line-height: 4.8rem;
+  margin-bottom: 48px;
+}
+
+.hero p {
+  font-style: italic;
+  color: #ffffff;
+  font-size: 2.1rem;
+  line-height: 3.1rem;
+  margin: 32px 0;
+}
+
+.hero a {
+  font-size: 1.2rem;
+  text-transform: uppercase;
+  color: white;
+  padding: 12px 48px;
+  border-radius: 4px;
+  background-color: #424b5a;
+  text-decoration: none;
+}
+
+/* CHRISTIANS ONLY -------*/
+
+.container {
+  display: flex;
+  flex-direction: column;
+  margin: 16px 0;
+  padding: 32px;
+  text-align: left;
+}
+
+.container img {
+  width: 100%;
+  margin: 16px 0;
+}
+
+.text-only {
+  font-size: 1.6rem;
+}
+
+.content-container h2 {
+  text-align: center;
+  margin: 16px;
+}
+
+.content-container p {
+  margin: 16px 0;
+  font-weight: 300;
+}
+
+/* OUR CHURCH -------*/
+
+.ourchurch-container {
+  display: flex;
+  flex-direction: column;
+  padding: 48px 32px;
+  text-align: left;
+  background-color: #e7f5fe;
+}
+
+.ourchurch-container h2 {
+  text-align: center;
+  margin: 16px;
+}
+
+.container-item {
+  border-radius: 8px;
+  background-color: #ffffff;
+  padding: 16px;
+  margin: 32px 0;
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+}
+
+.card-link {
+  text-decoration: none;
+  max-width: 300px;
+  margin: auto;
+}
+
+.card-link:hover {
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+.container-item img {
+  width: 100%;
+  margin: 16px 0;
+}
+
+.container-item h3 {
+  color: #424b5a;
+  margin: 16px 0;
+}
+
+.container-item p {
+  margin: 24px 0;
+}
+
+.fa-plus-square-o {
+  color: #424b5a;
+  margin: 8px 0 0 8px;
+}
+
+.icon-with-text {
+  color: #424b5a;
+  font-size: 1.4rem;
+  font-weight: 300;
+  text-align: right;
+}
+
+/* GET IN TOUCH -------*/
+
+.contact-container {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  padding: 32px 0;
+}
+
+.contact-container h2 {
+  margin: 16px;
+  color: #29344B;
+}
+
+.contact-container p {
+  margin: 16px 32px;
+  font-weight: 300;
+}
+
+.contact-container a {
+  padding: 12px 32px;
+  background-color: #424b5a;
+  text-decoration: none;
+  border-radius: 8px;
+  color: white;
+  margin: 32px;
+}
+
+.contact-container a:hover {
+  background-color: #2980b9;
+  color: #eaeaea;
+}
+
+/* FOOTER -------*/
+
+footer {
+  display: flex;
+  flex-direction: column;
+  background-color: #1E5174;
+  padding: 48px 0 8px;
+  text-align: left;
+  font-weight: 400;
+}
+
+.images-container {
+  display: flex;
+  flex-direction: column;
+}
+
+.footer-container {
+  padding-bottom: 32px;
+}
+
+.images-container img {
+  margin: 16px 32px;
+}
+
+footer ul {
+  list-style: none;
+}
+
+footer li {
+  margin: 16px 32px;
+}
+
+footer h4 {
+  color: white;
+  font-size: 1.6rem;
+  margin-bottom: 8px;
+}
+
+.info-container {
+  margin: 32px;
+}
+
+.info-container p {
+  margin-bottom: 24px;
+  color: #ffffff;
+  font-weight: 300;
+}
+
+.footer-content a {
+  color: white;
+  font-weight: 400;
+}
+
+.footer-content a:hover {
+  text-decoration: underline;
+}
+
+.location-container {
+  font-size: 1.4rem;
+  margin: 0 32px;
+}
+
+.location-container p {
+  margin: 16px 0;
+  color: #ffffff;
+}
+
+.rights {
+  font-size: 1.2rem;
+  text-align: center;
+  margin-bottom: 8px;
+  color: #ffffff;
+}
+
+/* =======================
+ABOUT US PAGE
+======================= */
+
+/* WHY CHURCH OF CHRIST... -------*/
+
+.why-container {
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+  margin: 16px;
+  padding: 16px 0;
+}
+
+.why-container h1 {
+  text-align: center;
+  margin: 24px 0;
+}
+
+.why-container img {
+  width: 100%;
+  margin: 16px 0;
+}
+
+.why-content p {
+  padding: 12px 0;
+}
+
+.why-content .verse {
+  font-style: italic;
+}
+
+/* DENOMINATION -------*/
+
+.denomination-container {
+  background-color: #e7f5fe;
+  padding: 48px 16px;
+}
+
+.denomination-content1 {
+  display: flex;
+  flex-direction: column;
+  max-width: 1170px;
+  margin:auto;
+}
+
+.denomination-content1 h2 {
+  margin: 16px;
+}
+
+.denomination-content1 img {
+  width: 100%;
+}
+
+.denomination-content1 p {
+  margin: 16px 0;
+  font-weight: 300;
+  text-align: left;
+}
+
+.denomination-content2 {
+  display: flex;
+  flex-direction: column;
+  max-width: 1170px;
+  margin:auto;
+}
+
+.denomination-content2 h2 {
+  margin: 16px;
+}
+
+.denomination-content2 img {
+  width: 100%;
+}
+
+.denomination-content2 p {
+  margin: 16px 0;
+  font-weight: 300;
+  text-align: left;
+}
+
+/* WORSHIP ITEMS -------*/
+
+.worship-container {
+  margin: auto;
+  padding: 48px 16px;
+}
+
+.worship-content {
+  display: flex;
+  flex-direction: column;
+}
+
+.worship-content h2 {
+  margin: 16px;
+}
+
+.worship-content img {
+  width: 100%;
+  margin: 16px 0;
+}
+
+.worship-content p {
+  margin: 16px 0;
+  font-weight: 300;
+  text-align: left;
+}
+
+.statements {
+  margin: 24px;
+  color: #424b5a;
+  font-weight: 300;
+  line-height: 2.8rem;
+}
+
+/* MEMBERS -------*/
+
+.members-container {
+  display: flex;
+  flex-direction: column;
+  background-color: #e7f5fe;
+  text-align: center;
+  padding: 32px 24px;
+}
+
+.members-container h2 {
+  margin: 16px;
+  color: #424b5a;
+}
+
+.membership-container {
+  display: flex;
+  flex-direction: column;
+  margin: 40px 16px;
+}
+
+.members-container a {
+  padding: 12px 32px;
+  background-color: #424b5a;
+  text-decoration: none;
+  border-radius: 8px;
+  color: white;
+  margin: 32px;
+}
+
+.members-container a:hover {
+  background-color: #2980b9;
+  color: #eaeaea;
+}
+
+/* ====================
+OUR FOUNDATIONS
+==================== */
+
+/* Baptism -------*/
+
+.membership-container {
+  display: flex;
+  flex-direction: column;
+  margin: 40px 16px;
+}
+
+.membership-container h1 {
+  text-align: center;
+}
+
+.membership-container div {
+  margin: 16px 0;
+}
+
+.membership-container .grid {
+  margin: 0;
+}
+
+.steps-container {
+  display: flex;
+  flex-direction: column;
+}
+
+.membership-container .grid div {
+  margin: 16px 0;
+  padding: 16px 0;
+}
+
+.steps-container img {
+  width: 100%;
+  padding: 16px 0;
+}
+
+.grid div h3 {
+  margin: 16px 0;
+  font-size: 2.4rem;
+  color: #505d68;
+}
+
+.membership-container div p {
+  margin-bottom: 24px;
+}
+
+/* SALVATION CONTAINER -------*/
+
+.salvation-container {
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+  padding: 16px;
+}
+
+.salvation-container p {
+  line-height: 2.8rem;
+  margin-bottom: 32px;
+}
+
+.salvation-content h2 {
+  padding: 16px 0;
+  font-size: 3.2rem;
+}
+
+.verses-container p {
+  padding: 16px 0;
+  margin: 16px 0;
+}
+
+.icon-with-text {
+  font-size: 1.6rem;
+}
+
+.fa-angle-double-right {
+  padding: 0 8px;
+}
+
+
+/* DIRECTORY CONTAINER -------*/
+
+.directory-container {
+  display: flex;
+  flex-direction: column;
+  background-color: #e7f5fe;
+  text-align: center;
+  padding: 32px 0;
+}
+
+.directory-container h2 {
+  margin: 16px;
+  color: #424b5a;
+}
+
+.directory-container p {
+  margin: 0 32px;
+  font-size: 1.8rem;
+  font-weight: 300;
+  padding: 16px 0;
+}
+
+/* TABLE -------*/
+
+.table-container {
+  overflow-x: auto;
+  max-width: 1170px;
+  margin: auto;
+}
+
+table {
+  font-family: "Hedvig Letters Sans", sans-serif;
+  margin: 16px;
+  background-color: white;
+}
+
+caption {
+  font-size: 2rem;
+  text-align: left;
+  padding: 16px 0;
+  text-align: center;
+}
+
+td,
+th {
+  padding: 8px;
+}
+
+th {
+  padding-top: 16px;
+  padding-bottom: 16px;
+  text-align: left;
+  background-color: #424b5a;
+  color: white;
+}
+
+tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+
+tbody tr:hover {
+  background-color: #ddd;
+}
+
+td.merge {
+  text-align: center;
+  font-style: italic;
+}
+
+tfoot {
+  font-size: 1.2rem;
+  font-style: italic;
+  text-align: center;
+  background-color: #c5c5c5;
+}
+
+/* ====================
+CONTACT
+==================== */
+
+/* FORM -------*/
+
+.wrapper-form {
+  border-radius: 8px;
+  padding: 32px;
+  max-width: 800px;
+  margin: 24px auto;
+  color: #424b5a;
+  font-family: "Hedvig Letters Sans", sans-serif;
+}
+
+.wrapper-form h2 {
+  margin-bottom: 16px;
+}
+
+.wrapper-button {
+  display: flex;
+  justify-content: flex-end;
+}
+
+::placeholder {
+  color: #adadad;
+  opacity: 1;
+}
+
+/* Buttons -------*/
+
+input[type="submit"] {
+  background-color: #424b5a;
+  color: white;
+  padding: 8px 32px;
+  border-radius: 4px;
+  cursor: pointer;
+  margin: 16px 0;
+}
+
+input[type="submit"]:hover {
+  background-color: #2980b9;
+  border: 2px solid #2980b9;
+}
+
+/* Inputs -------*/
+
+input,
+textarea {
+  font-size: 1.6rem;
+}
+
+input[type="text"],
+textarea {
+  width: 100%;
+  padding: 16px;
+  border: 0.3px solid #424b5a;
+  border-radius: 4px;
+  margin-top: 8px;
+  margin-bottom: 16px;
+  resize: vertical;
+}
+
+input[type="email"] {
+  width: 100%;
+  padding: 16px;
+  border: 0.3px solid #424b5a;
+  border-radius: 4px;
+  margin-top: 8px;
+  margin-bottom: 16px;
+  resize: vertical;
+}
+
+textarea {
+  font-family: "Lato", sans-serif;
+}
+
+fieldset {
+  margin-bottom: 16px;
+  border: 0.3px solid #424b5a;
+}
+
+.label-required {
+  font-size: 1.4rem;
+  padding: 0 8px;
+  color: rgb(146, 2, 2);
+}
+
+/* CSS suggested by ChatGPT for add a hidden field -------*/
+.phoneField {
+  display: none;
+}
+
+#contactPhone:checked ~ .phoneField {
+  display: block;
+}
+
+#contactPhone {
+  margin: 16px;
+  align-items: center;
+}
+
+/* ============================================================
+
+
+
+
+Large devices (laptops/desktops, 992px and up) 
+
+
+
+
+============================================================ */
+
+@media only screen and (min-width: 992px) {
+  body h2 {
+    font-size: 3.2rem;
+  }
+
+  header {
+    justify-content: center;
+    padding: 0 180px;
+  }
+
+  .logo {
+    width: 200px;
+  }
+
+  nav {
+    padding-top: 0;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    text-align: center;
+  }
+
+  nav .toggle {
+    display: none;
+  }
+
+  nav a {
+    color: #505d68;
+  }
+
+  #nav-items {
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+  }
+
+  .list-item a {
+    font-size: 1.4rem;
+  }
+
+  /* HERO -------*/
+
+  .hero h1 {
+    font-size: 4.8rem;
+    font-weight: 700;
+    margin-bottom: 48px;
+  }
+
+  .hero p {
+    font-size: 2.4rem;
+    font-weight: 300;
+    padding: 32px;
+    margin: auto;
+  }
+
+  .text-container {
+    max-width: 1170px;
+    margin: auto;
+  }
+
+  /* CHRISTIANS ONLY -------*/
+
+  .container {
+    max-width: 1170px;
+    margin: auto;
+  }
+
+  .content-container {
+    display: flex;
+    align-items: center;
+  }
+
+  .container h2 {
+    text-align: center;
+    margin: 16px;
+    font-size: 3.2rem;
+  }
+
+  .container img {
+    width: 50%;
+  }
+
+  .container .content-container {
+    padding: 32px 0;
+    font-size: 1.6rem;
+  }
+
+  .container .content-container p {
+    margin: 16px 32px;
+    line-height: 3rem;
+    font-weight: 300;
+    font-size: 1.6rem;
+  }
+
+  /* OUR CHURCH -------*/
+
+  .ourchurch-container {
+    padding: 64px 0;
+  }
+
+  .options-container {
+    display: flex;
+    flex-direction: row;
+    max-width: 1170px;
+    margin: auto;
+    gap: 48px;
+  }
+
+  .ourchurch-container h2 {
+    text-align: center;
+    margin: 16px;
+    padding: 32px 0;
+  }
+
+  .container-item {
+    padding: 24px;
+    margin: auto;
+    max-width: 300px;
+  }
+
+  /* GET IN TOUCH -------*/
+
+  .contact-container {
+    flex-direction: row;
+    max-width: 1170px;
+    margin: auto;
+    justify-content: center;
+    align-items: center;
+    padding: 72px 0;
+  }
+
+  .contact-container p {
+    margin: 8px 16px;
+    font-size: 1.8rem;
+  }
+
+  .contact-text {
+    text-align: left;
+  }
+
+  .contact-container a {
+    padding: 16px 72px;
+  }
+
+  /* FOOTER -------*/
+
+  footer {
+    padding: 0;
+  }
+
+  .images-container {
+    max-width: 300px;
+  }
+  footer li {
+    margin: 0 32px 24px;
+  }
+
+  .images-container img {
+    margin: 0 0 16px;
+    border-radius: 8px;
+  }
+
+  .footer-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    max-width: 1170px;
+    margin: auto;
+    padding: 48px 0;
+    text-align: left;
+    align-items: flex-start;
+  }
+
+  .content-container {
+    margin: 0;
+  }
+
+  .info-container {
+    margin: 0 32px;
+  }
+
+  .rights {
+    font-size: 1.4rem;
+    padding: 8px;
+  }
+
+  .list-container a {
+    text-decoration: none;
+  }
+
+  /* ----------------
+ABOUT US PAGE 
+Large devices (laptops/desktops, 992px and up) 
+------------------- */
+
+  /* WHY CHURCH OF CHRIST... -------*/
+
+  .why-container {
+    padding: 32px;
+  }
+
+  .why-container h2 {
+    text-align: center;
+    margin: 16px;
+  }
+  .why-content {
+    max-width: 1170px;
+    margin: auto;
+    display: flex;
+    flex-direction: row;
+    padding: 32px 48px;
+    gap: 32px;
+    align-items: center;
+  }
+
+  .why-content img {
+    width: 50%;
+    margin: 16px 0;
+  }
+
+  /* DENOMINATION -------*/
+
+  .denomination-container {
+    flex-direction: row;
+    background-color: #e7f5fe;
+  }
+
+  .denomination-container h2 {
+    text-align: center;
+    margin: 16px;
+  }
+
+  .denomination-container img {
+    width: 50%;
+    margin: 16px 0;
+  }
+
+  .denomination-content1 {
+    flex-direction: row;
+    gap: 32px;
+    padding: 32px 48px;
+    align-items: center;
+  }
+
+  .denomination-content2 {
+    display: flex;
+    flex-direction: row-reverse;
+    padding: 32px 0;
+    align-items: center;
+  }
+  
+  .denomination-content2 img {
+    width: 50%;
+  }
+
+  .denomination-content2 p {
+    margin: 16px 32px;
+  }
+
+
+  /* WORSHIP ITEMS -------*/
+
+  .worship-container {
+    padding: 56px;
+    max-width: 1170px;
+    margin: auto;
+  }
+
+  .worship-container h2 {
+    padding: 32px;
+    text-align: center;
+  }
+
+  .worship-content {
+    flex-direction: row;
+    gap: 32px;
+  }
+
+  .worship-content img {
+    width: 50%;
+    margin: 16px 0;
+  }
+
+  .worship-content p {
+    margin: 16px 0;
+    font-weight: 300;
+    text-align: left;
+  }
+
+  .statements {
+    margin: 24px;
+    line-height: 2.8rem;
+  }
+
+  /* MEMBERS -------*/
+
+  .members-container {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding: 80px;
+    margin: auto;
+  }
+
+  .members-container h2 {
+    margin: 16px;
+    color: #424b5a;
+  }
+
+  .members-container p {
+    margin: 16px 32px;
+    padding: 32px 128px;
+    font-weight: 300;
+  }
+
+  .members-container a {
+    margin: auto;
+    background-color: #424b5a;
+    text-decoration: none;
+    border-radius: 8px;
+    color: white;
+    padding: 16px 32px;
+  }
+
+  /* ----------------
+FOUNDATIONS 
+Large devices (laptops/desktops, 992px and up) 
+------------------- */
+
+  /* Baptism -------*/
+
+  .membership-container {
+    max-width: 1170px;
+    margin: auto;
+    padding: 48px;
+  }
+
+  .membership-container h1 {
+    text-align: center;
+    padding: 32px 0;
+  }
+
+  .membership-container div {
+    padding: 0;
+  }
+
+  .steps-container img {
+    width: 50%;
+  }
+
+  .baptism-content {
+    display: flex;
+    gap: 32px;
+    align-items: flex-start;
+  }
+
+  .baptism-content p {
+    line-height: 3rem;
+  }
+
+  /* Salvation -------*/
+
+  .salvation-container {
+    flex-direction: row;
+    max-width: 1170px;
+    margin: auto;
+    gap: 32px;
+    padding-bottom: 48px;
+  }
+
+  .salvation-content {
+    margin: 16px 32px;
+    width: 100%;
+  }
+
+  .salvation-content p {
+    margin-bottom: 16px;
+  }
+
+  .verses-container {
+    padding: 0 32px;
+  }
+
+  .verses-container p {
+    font-style: italic;
+  }
+
+  
+
+
+  /* watch out with this close... -------*/
+}

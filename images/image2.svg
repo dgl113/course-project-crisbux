@@ -1,0 +1,13 @@
+<svg id="image_2" data-name="image 2" xmlns="http://www.w3.org/2000/svg" width="690" height="519.368" viewBox="0 0 690 519.368">
+  <g id="Group">
+    <rect id="Background" width="690" height="519.368" rx="2" fill="#f2f5f7"/>
+    <g id="Border" fill="none" stroke="#c2d1d9" stroke-width="1">
+      <rect width="690" height="519.368" rx="2" stroke="none"/>
+      <rect x="0.5" y="0.5" width="689" height="518.368" rx="1.5" fill="none"/>
+    </g>
+  </g>
+  <g id="Cross_lines" data-name="Cross lines" transform="translate(12 11)">
+    <path id="Path_3" data-name="Path 3" d="M0,0,665.459,496.707" fill="none" stroke="#c2d1d9" stroke-width="1"/>
+    <path id="Path_3-2" data-name="Path 3" d="M233,0-432.459,496.707" transform="translate(432.459)" fill="none" stroke="#c2d1d9" stroke-width="1"/>
+  </g>
+</svg>

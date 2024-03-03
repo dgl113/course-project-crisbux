@@ -29,4 +29,8 @@ Additionally, it seeks to offer contact information and location, as a means to 
 - Hero animation: Adapt a carousel of images that also throws verses in a random way to make dynamic the home page of the site.
 
 
+----------
+
+--> Understanding that the validation that I expected to do of the form can be done by HTML, I propose to change this feature by a system of verses that will show different verses every day/hour.
+
 

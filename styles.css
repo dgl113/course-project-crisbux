@@ -102,6 +102,27 @@ nav a:hover {
   background-size: cover;
 }
 
+/* Carousel -------*/ 
+
+.carousel {
+  position: relative;
+  width: 100%;
+  height: 400px;
+}
+
+.carousel img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  position: absolute;
+  opacity: 0;
+  transition: opacity 1s ease-in-out;
+}
+
+.carousel img.active {
+  opacity: 1;
+}
+
 .hero h1 {
   font-size: 3.8rem;
   color: #ffffff;

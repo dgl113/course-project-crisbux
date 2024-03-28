@@ -98,7 +98,7 @@ nav a:hover {
   text-align: center;
   width: 100%;
   padding: 80px 40px;
-  background-image: url("images/sunrise.jpg"); /* Photo by Ravi Pinisetti on Unsplash */
+  /* background-image: url("images/sunrise.jpg"); /* Photo by Ravi Pinisetti on Unsplash */
   background-size: cover;
 }
 

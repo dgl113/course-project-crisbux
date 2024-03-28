@@ -93,34 +93,14 @@ nav a:hover {
 
 /* HERO -------*/
 
+
 .hero {
   display: flex;
   text-align: center;
   width: 100%;
   padding: 80px 40px;
-  /* background-image: url("images/sunrise.jpg"); /* Photo by Ravi Pinisetti on Unsplash */
+  background-image: url("images/sunrise.jpg"); /* Photo by Ravi Pinisetti on Unsplash */
   background-size: cover;
-}
-
-/* Carousel -------*/ 
-
-.carousel {
-  position: relative;
-  width: 100%;
-  height: 400px;
-}
-
-.carousel img {
-  width: 100%;
-  height: 100%;
-  object-fit: cover;
-  position: absolute;
-  opacity: 0;
-  transition: opacity 1s ease-in-out;
-}
-
-.carousel img.active {
-  opacity: 1;
 }
 
 .hero h1 {

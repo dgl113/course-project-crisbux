@@ -129,6 +129,26 @@ nav a:hover {
   text-decoration: none;
 }
 
+.controls {
+  position: absolute;
+  top: 80%;
+  transform: translateY(-100%);
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  padding: 0 16px;
+  box-sizing: border-box;
+}
+
+.control-btn {
+  cursor: pointer;
+  background: rgba(255, 255, 255, 0.5);
+  padding: 10px;
+  border: none;
+  border-radius: 8px;
+  outline: none;
+}
+
 /* CHRISTIANS ONLY -------*/
 
 .container {

@@ -87,3 +87,6 @@ function showPreviousVerse() {
 // Change verses 
 setInterval(showNextVerse, 5000);
 showVerse(currentVerseIndex);
+
+
+//BODY ANIMATION

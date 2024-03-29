@@ -132,7 +132,7 @@ nav a:hover {
 
 .controls {
   position: absolute;
-  top: 80%;
+  top: 90%;
   transform: translateY(-100%);
   width: 100%;
   display: flex;
@@ -162,6 +162,7 @@ nav a:hover {
   font-size: 2.5rem;
   font-weight:400;
 }
+
 
 /* CHRISTIANS ONLY -------*/
 

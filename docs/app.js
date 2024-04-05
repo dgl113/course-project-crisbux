@@ -39,62 +39,71 @@ changeImage();
 
 // Interval changer
 function autoChangeImage() {
-    showNextImage();
+  showNextImage();
 }
 setInterval(autoChangeImage, 5000);
-
 
 // VERSES
 
 const verses = [
-    {
-        text: "Then they who are alive, shall be caught up together into the clouds with them who remain, to meet the Lord in the air; and so shall we be ever with the Lord.",
-        reference: "1 Thessalonians 4:17"
-    },
-    {
-        text: "For God so loved the world, that he gave his only Son, \n that whoever believes in him should not perish but have eternal life.",
-        reference: "John 3:16"
-    },
-    {
-        text: "Have I not commanded you? Be strong and courageous. Do not be afraid; do not be discouraged, for the Lord your God will be with you wherever you go.",
-        reference: "Joshua 1:9"
-    }
+  {
+    text: "Then they who are alive, shall be caught up together into the clouds with them who remain, to meet the Lord in the air; and so shall we be ever with the Lord.",
+    reference: "1 Thessalonians 4:17",
+  },
+  {
+    text: "For God so loved the world, that he gave his only Son, \n that whoever believes in him should not perish but have eternal life.",
+    reference: "John 3:16",
+  },
+  {
+    text: "Have I not commanded you? Be strong and courageous. Do not be afraid; do not be discouraged, for the Lord your God will be with you wherever you go.",
+    reference: "Joshua 1:9",
+  },
 ];
 
 let currentVerseIndex = 0;
-const verseElement = document.getElementById('verse');
-const referenceElement = document.getElementById('reference');
+const verseElement = document.getElementById("verse");
+const referenceElement = document.getElementById("reference");
 
 function showVerse(index) {
-    verseElement.style.opacity = 0;
-    setTimeout(() => {
-        verseElement.textContent = verses[index].text;
-        referenceElement.textContent = verses[index].reference;
-        verseElement.style.opacity = 1;
-    }, 1000);
+  verseElement.style.opacity = 0;
+  setTimeout(() => {
+    verseElement.textContent = verses[index].text;
+    referenceElement.textContent = verses[index].reference;
+    verseElement.style.opacity = 1;
+  }, 1000);
 }
 
 function showNextVerse() {
-    currentVerseIndex = (currentVerseIndex + 1) % verses.length;
-    showVerse(currentVerseIndex);
+  currentVerseIndex = (currentVerseIndex + 1) % verses.length;
+  showVerse(currentVerseIndex);
 }
 
 function showPreviousVerse() {
-    currentVerseIndex = (currentVerseIndex - 1 + verses.length) % verses.length;
-    showVerse(currentVerseIndex);
+  currentVerseIndex = (currentVerseIndex - 1 + verses.length) % verses.length;
+  showVerse(currentVerseIndex);
 }
 
-// Change verses 
+// Change verses
 setInterval(showNextVerse, 1000);
 showVerse(currentVerseIndex);
 
-
 //FORM VALIDATION
 
-const form = document.getElementById('form');
-const inputs = document.querySelectorAll('#form input');
+const form = document.getElementById("form");
+const inputs = document.querySelectorAll("#form input");
 
-form.addEventListener('submit', (e) => {
-e.preventDefault();
+// Validate inputs
 
+const validateForm = () => {
+
+}  
+
+inputs.forEach((input) => {
+   input.addEventListener('keyup', validateForm);
+});
+
+//Event + Function to submit
+
+form.addEventListener("submit", (e) => {
+  e.preventDefault();
 });

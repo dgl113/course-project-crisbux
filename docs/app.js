@@ -85,8 +85,8 @@ function showPreviousVerse() {
 }
 
 // Change verses 
-setInterval(showNextVerse, 5000);
+setInterval(showNextVerse, 1000);
 showVerse(currentVerseIndex);
 
 
-//BODY ANIMATION
+//FORM VALIDATION

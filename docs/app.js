@@ -62,8 +62,8 @@ const verses = [
 ];
 
 let currentVerseIndex = 0;
-const verseElement = document.getElementById('verse');
-const referenceElement = document.getElementById('reference');
+const verseElement = document.getElementById("verse");
+const referenceElement = document.getElementById("reference");
 
 function showVerse(index) {
     verseElement.style.opacity = 0;
@@ -85,7 +85,7 @@ function showPreviousVerse() {
 }
 
 // Change verses 
-setInterval(showNextVerse, 1000);
+setInterval(showNextVerse, 10000);
 showVerse(currentVerseIndex);
 
 

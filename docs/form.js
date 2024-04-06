@@ -49,7 +49,7 @@ document.addEventListener('DOMContentLoaded', function () {
         } else {
             // If no errors, show success prompt
             alert('Submission successful!');
-            form.reset();
+            form.reset(); //Solution suggested by ChatGPT
             event.preventDefault();
         }
     });

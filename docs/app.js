@@ -44,7 +44,7 @@ function autoChangeImage() {
 setInterval(autoChangeImage, 5000);
 
 
-// VERSES AUTOMATICALY
+// VERSES AUTOMATICALLY
 
 const verses = [
     {

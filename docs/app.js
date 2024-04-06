@@ -44,7 +44,7 @@ function autoChangeImage() {
 setInterval(autoChangeImage, 5000);
 
 
-// VERSES
+// VERSES AUTOMATICALY
 
 const verses = [
     {
@@ -85,8 +85,7 @@ function showPreviousVerse() {
 }
 
 // Change verses 
-setInterval(showNextVerse, 10000);
+setInterval(showNextVerse, 7000);
 showVerse(currentVerseIndex);
 
 
-//FORM VALIDATION

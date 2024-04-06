@@ -769,7 +769,10 @@ fieldset {
   align-items: center;
 }
 
-
+.error {
+  color: red;
+  padding: 32px 0;
+}
 /* ============================================================
 
 

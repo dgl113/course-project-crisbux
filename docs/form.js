@@ -45,10 +45,11 @@ document.addEventListener('DOMContentLoaded', function () {
         }
 
         if (errors) {
-            event.preventDefault(); // Prevent form submission if there are errors
+            event.preventDefault(); 
         } else {
             // If no errors, show success prompt
             alert('Submission successful!');
+            event.preventDefault();
         }
     });
 });
